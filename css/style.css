@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body {
+  height: 1rem;
+}
+
+:root {
+  --black: #121212;
+  --white: #FFFFFF;
+  --yellow: #FFCC00;
+}
+
+.main {
+  background: var(--black);
+}
+
+.main .navbar-section {
+  margin: 0 150px;
+}
+
+.main .navbar-section img {
+  width: 5rem;
+  margin: .5rem .5rem;
+}
+
+.main .navbar-section ul {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.main .navbar-section li {
+  padding: 0 1rem;
+  margin-top: -4rem;
+  list-style: none;
+}
+
+.main .navbar-section a {
+  color: var(--white);
+  text-decoration: none;
+  transition: .5s;
+}
+
+.main .navbar-section a:hover {
+  color: var(--yellow);
+}
+
+.cover img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background: fixed;
+}
+
+.cover .cover-section {
+  margin-top: -1rem;
+}
+
+.cover .cover-section img {
+  float: right;
+  width: 30rem;
+  margin: 5.2rem 15rem;
+}
+
+.cover .cover-section .sidebar {
+  padding: 10rem 10rem;
+}
+
+.cover .cover-section .sidebar h1 {
+  font-size: 3rem;
+  color: var(--yellow);
+  font-weight: bolder;
+}
+
+.cover .cover-section .sidebar span {
+  color: var(--white);
+}
+
+.cover .cover-section .sidebar p {
+  text-align: justify;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.services {
+  background: var(--black);
+  padding: 1rem 1rem;
+}
+
+.services .services-section {
+  text-align: center;
+}
+
+.services .services-section h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.services .services-section span {
+  color: var(--yellow);
+}
+
+.services .services-section p {
+  width: 55rem;
+  font-size: 1rem;
+  margin-left: 20rem;
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+.services .services-product {
+  margin: 2rem 1rem;
+}
+
+.services .services-product .container {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.services .services-product .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services .services-product .container .card {
+  flex: 1 1 9.5rem;
+  margin: 10px 20px;
+  align-self: normal;
+  text-align: center;
+  cursor: pointer;
+}
+
+.services .services-product .container img {
+  width: 10rem;
+  height: 7rem;
+  margin-left: -1.2rem;
+}
+
+.services .services-product .container h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.about {
+  padding-top: 1rem;
+}
+
+.about .about-section {
+  margin: 1rem 1rem;
+}
+
+.about .about-section h1 {
+  text-align: center;
+  padding: 0 1rem;
+  color: var(--black);
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+.about .about-section span {
+  color: var(--yellow);
+}
+
+.about .about-section p {
+  text-align: center;
+  margin-left: 10rem;
+  width: 70rem;
+  font-size: 20px;
+}
+
+.about .about-profile {
+  margin: 2rem 11rem;
+}
+
+.about .about-profile .container {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about .about-profile .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .about-profile .container .card {
+  flex: 1 1 15rem;
+  margin: 0 2rem;
+  align-self: normal;
+  text-align: center;
+  cursor: pointer;
+}
+
+.about .about-profile .container img {
+  width: 15rem;
+  height: 15rem;
+  margin-left: -1rem;
+}
+
+.about .about-profile .container h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.footer {
+  background: var(--black);
+}
+
+.footer p {
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--yellow);
+}
